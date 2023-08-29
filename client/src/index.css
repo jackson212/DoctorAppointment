@@ -1,0 +1,82 @@
+ .authentication{
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+
+.card{
+
+   box-shadow: 0 0 2px gray;
+   border-radius: 0;
+}
+
+.card-title{
+
+  font-size: 1.5rem;
+  font-weight: bold;
+
+}
+
+.normal-text{
+
+  font-size: 1rem;
+}
+.authentication-form{
+
+  width: 400px;
+}
+
+
+
+.ant-input{
+  border-radius: 2px;
+  border: 1px solid rgba(128, 128, 128, 0.521);
+  height: 40px;
+}
+
+
+.ant-input:focus{
+
+  outline: none;
+  box-shadow: none;
+  border: 1px solid gray;
+
+
+}
+.ant-form-item{
+
+  margin: 10px 0;
+}
+
+.primary-button{
+
+  background-color: #005555;
+  border-color: #005555;
+  height: 40%;
+  width: 100%;
+  color: aliceblue;
+  font-size: 18px;
+}
+.anchor{
+
+  color: black;
+  text-decoration: underline;
+
+  font-size: 16px;
+}
+
+.card-title{
+
+
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: orangered;
+  color: white;
+  max-width: max-content;
+  padding: 7px 15px;
+  margin-left: -40px;
+  border-bottom-left-radius: 10px;
+}
